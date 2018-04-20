@@ -14,3 +14,6 @@ cd ./qtype
 npm install
 npm start
 ```
+
+#### Why Component Based ?
+We can reuse the components where ever we need so that we can build once and implement it anywhere.
