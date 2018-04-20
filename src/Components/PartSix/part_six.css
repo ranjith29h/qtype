@@ -1,0 +1,10 @@
+.part_six_container{
+    background-color: white;
+    padding: 2%;
+}
+.part_six_container span{
+    font-size: 28px;
+    
+      font-weight: bold;
+    border-bottom: 5px solid #2f73e4;
+}

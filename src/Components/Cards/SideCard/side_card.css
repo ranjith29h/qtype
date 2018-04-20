@@ -1,0 +1,51 @@
+.row{
+    display: flex;
+}
+.col-img{
+    flex: .75;
+}
+.col-content{
+    flex: 1;
+    padding: 0% 2%;;
+}
+
+.side__card{
+    margin:4% 0;
+    background-color: white;
+  }
+  .side_desc{
+    margin-top: 7%;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+  }
+  .side_author{
+    font-size: 12px;
+    color:#818181;
+  } 
+  @media only screen and (min-width: 900px) { 
+    .side_desc{
+        font-size: 22px;    
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.36;
+        margin-top: 2%;
+    }
+    .col-img{
+        flex: .4;
+    }
+    .col-content{
+        flex: 1;
+        padding: 0% 2%;;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 899px) { 
+      
+  }

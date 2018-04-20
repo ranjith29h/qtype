@@ -1,0 +1,128 @@
+.dynamic_card{
+    
+}
+.img_holder{
+    background-image: url('../../../images/avatar.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+    background-color: white;
+    padding: 5%;
+}
+.content h4{
+    margin-top: 2%;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+.category_head{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.category_head span{
+    border-bottom: 2px solid #edd30d;
+}
+.show_desc{
+    display: none;
+    margin-top: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    font-size: 12px;
+    color: #5c5c5c;
+}
+.posted_by{
+    margin-top: 5%;
+    display: flex;
+}
+.posted_by_avatar{
+    flex: .3;
+}
+.posted_by_detals{
+    flex:2;
+}
+.posted_by_details p{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+.posted_by_details p:nth-child(1){
+    color:#818181;
+    margin-bottom: 7%;
+    font-size: 16px;
+}
+.posted_by_details p:nth-child(2){
+    font-size: 14px;
+    font-weight: 300;
+    color: #818181;
+}
+
+/* tablets */
+
+@media (min-width: 481px) and (max-width: 899px) {
+    
+    .dynamic_card{
+        display: flex;
+    }
+    .img_holder{
+        flex: 1;
+    }
+    .content{
+        flex: 1;
+        padding: 3%;
+    }
+    .content h4{
+        font-size: 22px;
+    }
+
+    .category_head{
+        font-size: 12px;
+        letter-spacing: 1.1px;
+    }
+    .show_desc{
+        font-size: 12px;
+        display: block;
+    }
+   
+}
+
+@media (min-width: 900px){
+
+    .dynamic_card{
+        display: flex;
+    }
+    .img_holder{
+        flex: 1;
+        height: 444px;
+    }
+    .content{
+        flex: 1;
+        padding: 3%;
+    }
+    
+    .category_head{
+        font-size: 18px;
+        letter-spacing: 1.6px;
+        margin-bottom: 5%;
+    }
+    .show_desc{
+        font-size: 18px;
+        display: block;
+    }
+
+    .posted_by_avatar{
+        flex: .17;
+    }
+
+}

@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;  
+  background-color: #f7f7f7;
+}
+.dots_pos{
+  text-align: center;
+}
+@media only screen and (min-width: 900px) { 
+  .app_container{
+    width: 90%;
+    margin: 2% auto;
+  }
+}

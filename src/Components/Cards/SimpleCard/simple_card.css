@@ -1,0 +1,63 @@
+.simple_card_container{
+    margin-top: 5%;
+  }
+  .simple_card{
+    margin: 5%;
+  }
+  .category_title{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    padding-bottom:1%;
+    margin-bottom: 3% !important;
+  }
+  .simple_card h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 3%;
+  }
+  .auth{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #818181;
+  }
+  
+  .simple_card:first-child{
+    margin-top: 0;
+  }
+
+  @media (min-width: 481px) and (max-width: 899px) {
+    .simple_card_container{
+      margin-top: 0%;
+    }
+    .promotion{
+      display: none;
+    }
+}
+    
+@media (min-width: 900px){
+  .simple_card_container{
+    margin-top: 0%;
+    flex: 1;
+  } 
+  .smart_card{
+    flex: 1;
+  }
+  .promotion{
+    flex: 1;
+  }
+}

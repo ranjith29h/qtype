@@ -1,0 +1,75 @@
+.part_four_container{
+    margin-top: 4%;
+}
+.four_one{
+    margin: 4%;
+}
+.desc_card_holder{
+    margin: 3%;
+}
+@media (min-width: 481px) and (max-width: 899px) {
+    .part_four_container{
+        margin-top: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .four_one{
+        width: 50%;
+        float: left;
+        margin: 0;
+        margin-bottom:3% 5%;
+    }
+    .four_two{
+        width: 50%;
+        float: left;
+    }
+    .four_three{
+        clear: both;
+        margin-top: 10%;
+    }
+    .desc_card_holder{
+        margin: 3%;
+    }
+    .hover_container{
+        margin-bottom: 10%;
+    }
+   .four_three .simple_card_with_d{
+        margin: 0;
+        width: 45%;
+        float: left;
+        margin-left: 2%;
+        margin-bottom: 5%;
+    }
+
+    .simple_card h3{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+    .part_four_container{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+    .four_one{
+        flex: 1;
+        max-width: 34.5%;
+        margin: 0;
+    }
+    .four_two{
+        flex: 1;
+        max-width: 32%;
+    }
+    .four_three{
+        flex: 1;
+        max-width: 30%;
+    }
+    .part_four_container:before, .part_four_container:after{
+        content: none;
+    }
+    .desc_card_holder{
+        margin: 0%;
+    }
+}

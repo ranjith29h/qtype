@@ -1,0 +1,20 @@
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #2f73e4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2%;
+}
+@media (min-width: 481px) and (max-width: 899px) {
+    .dot{
+        height: 22px;
+        width: 22px;
+    }
+}
+@media only screen and (min-width: 900px) { 
+    .dot{
+        height: 25px;
+        width: 25px;
+    }
+}

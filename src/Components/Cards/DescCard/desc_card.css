@@ -1,0 +1,21 @@
+.desc_card{
+    margin-top: 4%;
+    padding: 4%;
+    box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  .desc_card h1{
+      font-size: 26px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+  }
+  .desc_card p{
+    margin-bottom: 1% !important;
+    color:#818181;
+    font-size: 16px;
+  }

@@ -1,0 +1,132 @@
+.plain_card_sub{
+    display: flex;
+    margin: 5% 1%;
+}
+.plain_card_image{
+    flex: .5;
+}
+.plain_card_image img{
+    width: 150px;
+}
+.plain_card_content{
+    margin-top: 0;
+    margin-left: 3%;
+}
+.article_headline h3{
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 2%;
+}
+.article_written p{
+    font-size: 18px;
+    color: #818181;
+    margin-bottom: 1%;
+}
+.plain_card_content .cat span{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-color: #f260a4;
+}
+.plain_card_content p{
+    margin-bottom: 2%;
+}
+.article_written p{
+    font-size: 12px;
+}
+.article_time p{
+    font-size: 10px;
+}
+.article_headline h3{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+@media (min-width: 481px) and (max-width: 899px) {
+    .plain_card_image{
+        flex: .48;
+    }
+    .plain_card_content{
+        flex: 1;
+    }
+    .plain_card_image img{
+        width: auto;
+    }
+    .plain_card_content .cat span{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .cat p{
+        margin-bottom: 5%;
+    }
+
+    .plain_card_content h3{
+        font-size: 26px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.23;
+        margin-bottom: 7%;
+    }
+    .article_written p{
+        font-size: 14px;
+    }
+    .article_time p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+    .plain_card_image{
+        flex: .48;
+    }
+    .plain_card_content{
+        flex: 1;
+    }
+    .plain_card_container{
+        margin-top: 2%;
+    }
+       
+    .plain_card_content .cat span{
+        font-size: 14px;
+    }
+    .article_headline{
+        margin-bottom: 5%;
+    }
+    .article_headline h3{
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222222;
+    }
+    .article_written p{
+        font-size: 18px;
+        color: #818181;
+        margin-bottom: 1%;
+    }
+    .article_time p{
+        font-size: 14px;
+        color: #818181;
+    }
+    .cat{
+        margin-bottom: 3%;
+    }
+    .plain_card_image img{
+        width: auto;
+    }
+}
